@@ -2,6 +2,6 @@
 const pets = require("../controllers/pets.js")
 module.exports = function(app){
 
-  app.get('/', template.index);
-
+  app.get('/', pets.index);
+  
 }
